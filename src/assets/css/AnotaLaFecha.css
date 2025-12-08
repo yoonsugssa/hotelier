@@ -1,0 +1,55 @@
+/* CONTENEDOR PRINCIPAL */
+.anota-container {
+  position: relative;
+  width: 100%;
+  height: 50px;  /* <--- AGREGA ESTO */
+  background: #e8f0f5; /* Por si quieres fondo aunque falle algo */
+}
+
+
+/* FONDO AZUL CLARO */
+.anota-bg {
+  position: absolute;
+  inset: 0;               /* top:0, right:0, bottom:0, left:0 */
+  background: #e8f0f5;
+}
+
+/* CONTENEDOR DEL TEXTO */
+.anota-text {
+  position: absolute;
+  left: 23px;
+  right: 23px;
+  top: -37px;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  text-align: center;
+  color: #191e3b;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: 1.45;
+  letter-spacing: -0.08px;
+}
+
+/* ESPACIADORES */
+.space {
+  margin-bottom: 16px;
+}
+
+/* TEXTO PRINCIPAL */
+.main-line {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+/* ESTILOS DE LETRA */
+.bold {
+  font-weight: 700;
+}
+
+.normal {
+  font-weight: 400;
+}
